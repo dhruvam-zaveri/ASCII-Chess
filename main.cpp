@@ -587,7 +587,7 @@ int main()
         cout<<"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"<<"2. INSTRUCTIONS"<<endl;
         cout<<"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"<<"3. CREDITS"<<endl;
         cout<<"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"<<"4. EXIT"<<endl;
-        cout<<"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"<<"Enter your choice : ";
+        cout<<"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t"<<"Press \"Enter\" after inputting your choice : ";
         cin>>choice;
 
         switch(choice)
@@ -604,7 +604,7 @@ int main()
                         {
                             ::check=2;
                             cout <<"CHECK !!!" << endl;
-                            cout << "Your king is under check and you can move king, queen, bishop , rook " << endl;
+                            cout << "Your king is under check and you can move king, queen, bishop, rook " << endl;
                         }
                         if(check_checkmate(a)<=0)
                         {
@@ -627,7 +627,7 @@ int main()
                             {
                                 ::check=2;
                                 cout <<"CHECK !!!" << endl;
-                                cout << "Your king is under check and you can move king, queen, bishop , rook " << endl;
+                                cout << "Your king is under check and you can move king, queen, bishop, rook " << endl;
                             }
                         }
                         else
@@ -649,7 +649,7 @@ int main()
                             {
                                 ::check=2;
                                 cout <<"CHECK !!!" << endl;
-                                cout << "Your king is under check and you can move king, queen, bishop , rook " << endl;
+                                cout << "Your king is under check and you can move king, queen, bishop, rook " << endl;
                             }
                         }
 
@@ -675,7 +675,7 @@ int main()
                             {
                                 ::check=1;
                                 cout << "CHECK 2 !!!" << endl;
-                                cout << "Your king is under check and you can move king, queen, bishop , rook " << endl;
+                                cout << "Your king is under check and you can move king, queen, bishop, rook " << endl;
                             }
                         }
                         else
@@ -696,7 +696,7 @@ int main()
                         {
                             ::check=1;
                             cout <<"CHECK !!!" << endl;
-                            cout << "Your king is under check and you can move king, queen, bishop , rook " << endl;
+                            cout << "Your king is under check and you can move king, queen, bishop, rook " << endl;
                         }
                     }
                 }
@@ -706,8 +706,12 @@ int main()
                 case 2:
                 {
                     system("CLS");
-                    cout<<"In this game u will have two palyers"<<endl << endl;
-                    cout<<"\nDo u want to go back to menu again(1.yes/2.no):";
+                    cout<<"* In this game there are 2 players, starting with Player 1."<<endl << endl;
+                    cout<<"* Player 1 will be the one at the top end of the screen."<<endl << endl;
+                    cout<<"* The coordinate input format is: <vertical position> <space> <horizontal position>."<<endl << endl;
+                    cout<<"* To exit the game anytime press CTRL + C."<<endl << endl;
+                    cout<<"* There is no provision to save the progress, be cautious when exiting."<<endl << endl;
+                    cout<<"\nDo u want to go back to menu again(1=yes/2=no):";
                     cin>>ch1;
                     if(ch1==1)
                     {
@@ -720,9 +724,8 @@ int main()
                 {
 
                     system("CLS");
-                        cout<<" This game is developed by : "<<endl<<endl<<" 18DCS135 - DHRUVAM ZAVERI"<<endl<<" 18DCS132 - MURTAZA VASI"
-                        <<endl<<" 18DCS133 - DHRUVISHA VASOYA "<<endl<<" 18DCS120 - NAMRA SOLANKI"<<endl << endl;
-                        cout<<"\nDo u want to go back to menu again(1.yes/2.no):";
+                        cout<<" This game is developed by : "<<endl<<endl<<"DHRUVAM ZAVERI";
+                        cout<<"\nDo u want to go back to menu again(1=yes/2=no):";
                         cin>>ch1;
                         if(ch1==1)
                         {
@@ -741,7 +744,7 @@ int main()
                 {
                     system("CLS");
                     cout<<"INVALID CHOICE"<<endl;
-                    cout<<"\nDo u want to go back to menu again(1.yes/2.no):";
+                    cout<<"\nDo u want to go back to menu again(1=yes/2=no):";
                     cin>>ch1;
                     if(ch1==1)
                     {

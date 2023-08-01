@@ -4,4 +4,4 @@ This is an open-source chess project on which anyone can work. It has fairly sim
 Pls find the completed code in "Finally completed chess"
 <br>
 <h2>How to play</h2>
-Run the "main.cpp" in a code editor/ IDE or from the "Finally completed chess" run the "main (2).exe".
+Run the "main.cpp" in a code editor/ IDE or run the "main.exe".
